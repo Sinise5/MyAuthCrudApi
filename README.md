@@ -21,13 +21,12 @@ Abstract:xxx
 | dataset-C | [download]() |
 
 ## Use
-- for train
-  ```
-  python train.py
-  ```
+
 - for test
   ```
-  python test.py
+  dotnet ef migrations add InitialCreate
+  dotnet ef database update
+  dotnet watch run
   ```
 
 ## API Endpoints
