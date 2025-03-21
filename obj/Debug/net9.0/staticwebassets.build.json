@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "IutPwCLxOp+x1bGEwdMs32tHJdYOgRL+FrSKYx8/bBY=",
+  "Source": "MyAuthCrudApi",
+  "BasePath": "_content/MyAuthCrudApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
