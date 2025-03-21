@@ -50,14 +50,12 @@ Abstract:xxx
 
 ## Directory Hierarchy
 ```
+|—— .gitignore
 |—— Controllers
 |    |—— AuthController.cs
+|    |—— ProductController.cs
 |—— Data
 |    |—— AppDbContext.cs
-|—— Migrations
-|    |—— 20250321031412_InitialCreate.Designer.cs
-|    |—— 20250321031412_InitialCreate.cs
-|    |—— AppDbContextModelSnapshot.cs
 |—— Models
 |    |—— Product.cs
 |    |—— User.cs
@@ -66,14 +64,17 @@ Abstract:xxx
 |—— Program.cs
 |—— Properties
 |    |—— launchSettings.json
+|—— README.md
 |—— Repositories
+|    |—— IProductRepository.cs
 |    |—— IUserRepository.cs
+|    |—— ProductRepository.cs
 |    |—— UserRepository.cs
 |—— Services
 |    |—— AuthService.cs
 |—— appsettings.Development.json
 |—— appsettings.json
-|—— 
+|
 ```
 ## Code Details
 ### Tested Platform
